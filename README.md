@@ -10,7 +10,7 @@ The project repesents an client-server web application for playing the game poke
 
 //Features:
 
-A client can log in with his user name and password to the server which has a hashTable where he checks the the client has an account and checks the value of the password if it is the same using the user name as a key.
+A client can log in with his user name and password to the server which has a hash table where he checks the the client has an account and checks the value of the password if it is the same using the user name as a key.
 
 After the log in the server will ask for a string like command in order to choose the correct interface for the selected poker game.
 Every different poker game interface has a diffrent slice with all the combinations of five cards sorted by the priority of each combination for the selected game.
