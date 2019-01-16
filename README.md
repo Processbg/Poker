@@ -1,14 +1,14 @@
 # Poker
 
-//Instalation: 
+## Instalation: 
 
 You can install it using this go command go get "https://github.com/Processbg/Poker".
 
-//Summary:
+## Summary:
 
 The project repesents an client-server web application for playing the game poker. The basic idea is that a client logs with his account name and password to the server where he can choose the type of poker he wants to play and after that he is atomatically put in a room where the selected poker game is played and on a table which has the least empty seats. If all the players on the table leave the table, he will be put on the next table with least empty seats at the given moment and if all the tables are full he will be put on a new table and wait for players to join him to start playing.
 
-//Features:
+## Features:
 
 A client can log in with his user name and password to the server which has a hash table where he checks if the client has an account and than checks the value of the password if it is the same using the user name as a key.
 
